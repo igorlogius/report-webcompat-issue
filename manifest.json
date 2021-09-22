@@ -4,7 +4,7 @@
 	"scripts": [ "background.js" ]
   },
   "browser_action": {
-	  "default_title": "click to report a webcompat issue"
+	  "default_title": "report webcompat issue"
   },
   "icons": {
   },
@@ -12,8 +12,7 @@
   "manifest_version": 2,
   "name": "report-webcompat-issue",
   "permissions": [
-    "activeTab",
-    "https://webcompat.com/issues/*"
+    "activeTab"
   ],
   "sidebar_action": {
 	 "default_panel": "sidebar.html",

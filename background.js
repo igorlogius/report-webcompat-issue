@@ -3,5 +3,5 @@ browser.browserAction.onClicked.addListener( (tab) => {
 		tabId: tab.id, 
 		panel: 'https://webcompat.com/issues/new?url=' + encodeURI(tab.url)
 	});
-	browser.sidebarAction.open();
+	browser.sidebarAction.toggle();
 });
