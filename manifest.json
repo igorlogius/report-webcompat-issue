@@ -13,8 +13,7 @@
   "manifest_version": 2,
   "name": "report-webcompat-issue",
   "permissions": [
-    "activeTab",
-    "https://webcompat.com/*"
+    "activeTab"
   ],
   "sidebar_action": {
 	 "default_panel": "sidebar.html",
@@ -22,5 +21,5 @@
 	 "default_icon": "icon.png",
 	 "default_title": "Report WebCompat Issue"
   },
-  "version": "1.1.2"
+  "version": "1.1.3"
 }
